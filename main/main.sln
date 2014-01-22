@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Express 2012 for Windows Desktop
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "main", "main\main.vcxproj", "{7D6EFC72-90DC-4932-8280-95C0669F4B8C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example001", "..\example001\example001\example001.vcxproj", "{44234EB2-80DD-4419-BDCC-5470C287BC41}"
@@ -8,6 +8,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example002", "..\example002\example002\example002.vcxproj", "{796C8DD4-8E6F-4307-A99A-E59D5EF349E6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example003", "..\example003\example003\example003.vcxproj", "{E23197FF-A91F-4E93-B777-7CC9E219FA23}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linkData", "..\linkData\linkData.vcxproj", "{6B57E4A3-C2C1-43E9-9922-6B9F804057A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{E23197FF-A91F-4E93-B777-7CC9E219FA23}.Debug|Win32.Build.0 = Debug|Win32
 		{E23197FF-A91F-4E93-B777-7CC9E219FA23}.Release|Win32.ActiveCfg = Release|Win32
 		{E23197FF-A91F-4E93-B777-7CC9E219FA23}.Release|Win32.Build.0 = Release|Win32
+		{6B57E4A3-C2C1-43E9-9922-6B9F804057A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B57E4A3-C2C1-43E9-9922-6B9F804057A3}.Debug|Win32.Build.0 = Debug|Win32
+		{6B57E4A3-C2C1-43E9-9922-6B9F804057A3}.Release|Win32.ActiveCfg = Release|Win32
+		{6B57E4A3-C2C1-43E9-9922-6B9F804057A3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
