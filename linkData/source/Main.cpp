@@ -1,7 +1,17 @@
-#include<stdio.h>
+#include "stdio.h"
+#include<stdlib.h>
 
-int main()
+void print()
 {
+	#pragma comment(linker, "/entry:print")
+	#pragma comment(lib, "msvcrt.lib")
 
-	return 0;
+	printf("hello word\n");
+	system("pause");
+}
+
+
+void main()
+{
+	printf("%s\n","hello word");
 }
